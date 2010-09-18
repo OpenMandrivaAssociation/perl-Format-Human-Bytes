@@ -1,5 +1,5 @@
 %define upstream_name    Format-Human-Bytes
-%define upstream_version 0.05
+%define upstream_version 0.06
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:    Format bytecounts in a human readable form
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Format/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/Format/%{upstream_name}-%{upstream_version}.tar.lzma
 
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(Module::Install)
